@@ -48,10 +48,6 @@ li a {
 	width: auto;
 }
 
-#globeIcon:hover {
-    background-image: url(./assets/blueGlobe.png);
-}
-
 .browsers {
     margin-top: 200px;
     margin-left: 400px;
@@ -62,17 +58,31 @@ p {
     font-size: 23px;
     text-align: justify;
     font-family: tablet-gothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    letter-spacing: -0.5px;
 }
 
-#chromeLogo {
+img.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    margin-bottom: 50px;
 }
 
-#chrome h1 {
+.browsers h1 {
     font-size: 33px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin-top: 200px;
 }
 
+.browsers h1:hover {
+    color: rgb(148, 30, 30);
+}
+
+.browsers p a {
+    color: black;
+}
+
+.browsers p a:hover {
+    color: red;
+}
