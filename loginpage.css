@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgba(15, 66, 233, 0.842);
+}
+ 
+.box {
+    background-color: white;
+    height: 740px;
+    width: 600px;
+    border-radius: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 625px;
+}
