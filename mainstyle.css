@@ -102,15 +102,29 @@ hr {
     margin-right: 200px;
   }
   
-  hr::after {
+hr::after {
     background: #fff;
     content: '§';
     padding: 0 4px;
     position: relative;
     top: -13px;
-  }
+}
 
-  #end {
+#end {
     margin-left: 400px;
     margin-right: 400px;
-  }
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 200px;
+}
+
+footer p {
+    opacity: 40%;
+}  
