@@ -7,6 +7,10 @@ button:hover {
     color: white;
 }
 
+h1 {
+    font-family: tablet-gothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+}
+
 .timebutton {
     top: 50px;
     font-size: 18px;
@@ -86,3 +90,27 @@ img.logo {
 .browsers p a:hover {
     color: red;
 }
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  hr::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }
+
+  #end {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
